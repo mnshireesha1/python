@@ -7,6 +7,19 @@ elif age >= 13:
 else:
     print("You are a child.")
 
+#match
+value = "banana"
+
+match value:
+    case "apple":
+        print("It's an apple.")
+    case "banana":
+        print("It's a banana.")
+    case "mango":
+        print("It's a mango.")
+    case _:
+        print("Unknown fruit.")
+
 
 #Logical Operators
 x = 10
